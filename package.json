@@ -1,0 +1,29 @@
+{
+  "name": "glsl-y-repeat",
+  "version": "0.0.0",
+  "description": "calculate repeated values for glslify.",
+  "main": "mirrored.glsl",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://yuichiroharai@github.com/yuichiroharai/glsl-y-repeat.git"
+  },
+  "keywords": [
+    "glsl",
+    "glslify",
+    "shader",
+    "webgl",
+    "math",
+    "repeat",
+    "mirrored"
+  ],
+  "author": {
+    "name": "Yuichiroh Arai",
+    "url": "http://www.yuichiroharai.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuichiroharai/glsl-y-repeat/issues"
+  },
+  "homepage": "https://github.com/yuichiroharai/glsl-y-repeat#readme"
+}
