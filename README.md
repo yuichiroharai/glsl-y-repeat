@@ -22,3 +22,20 @@ void main(void) {
     vec2 uv = mirrored(vUv);
 }
 ```
+
+### masked ###
+
+#### `float masked(float v, float min, float length)`
+#### `vec2 masked(vec2 v, float min, float length)`
+#### `vec3 masked(vec3 v, float min, float length)`
+#### `vec4 masked(vec4 v, float min, float length)`
+
+```glsl
+#pragma glslify: masked = require(glsl-y-repeat/masked)
+
+varying vec2 vUv;
+
+void main(void) {
+    vec2 uv = masked(vUv, vec2(0.0, 0.5), vec2(0.5, 0.5));
+}
+```
